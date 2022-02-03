@@ -1,8 +1,11 @@
+import "/node_modules/modern-normalize/modern-normalize.css";
 import "./App.css";
+
 import Section from "./components/Section/Section";
 import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions";
 import Statistics from "./components/Statistics/Statistics";
 import Notification from "./components/Notification/Notification";
+
 import { Component } from "react";
 
 class App extends Component {
